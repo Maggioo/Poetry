@@ -45,7 +45,7 @@ MORSE = {
 }
 
 
-def morse_decoder(code: str) -> str:
+def morse_decoder(code):
     frase = ''
     parole = code.split('   ')
     for el in parole:
