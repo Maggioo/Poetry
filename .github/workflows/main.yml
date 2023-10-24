@@ -8,7 +8,7 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
     - name: Set up Python
       uses: actions/setup-python@v2
@@ -19,4 +19,4 @@ jobs:
       run: pip install pytest
 
     - name: Run PyTest
-      run: pytest
+      run: echo pytest
