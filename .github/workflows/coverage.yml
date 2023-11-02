@@ -18,6 +18,9 @@ jobs:
     - name: Install dependencies
       run: pip install pytest
 
+    - name: update pip
+      run: pip install --upgrade pip
+
     - name: Run PyTest
       run: echo pytest
 
