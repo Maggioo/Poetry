@@ -1,6 +1,6 @@
 name: Coverage
 
-oon: [push]
+on: [push]
 
 jobs:
   test:
